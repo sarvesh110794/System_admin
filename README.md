@@ -20,3 +20,4 @@ $dd if=/dev/zero of=sparse_file bs=1 count=0 seek=512M
 ```
 $sudo rsync -arvh --sparse --info=progress2 sparse_file <uname>@<IP>:/home/sarvesh/Documents/
 ```
+---
