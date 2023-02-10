@@ -24,5 +24,28 @@ $sudo rsync -arvh --sparse --info=progress2 sparse_file <uname>@<IP>:/home/sarve
 # Reset user Passwd in ubuntu:
 ### Boot into recovery mode
 * Switch the computer on. Go to the grub menu
-* it appears automatically – if not, then hold down the shift key or press Esc key until the boot menu appears
-* 
+* it appears automatically – if not, then hold down the ***shift key*** or ***press Esc*** key until the boot menu appears
+* If you are using virtualbox or VMware, ***Please hold down the shift key*** when the logo of Oracle appears.
+* select the “Advanced Options for Ubuntu”:
+
+insert image
+
+* you’ll see the option to go to recovery mode:
+
+# Drop to root shell prompt:
+# Remount the root with write access
+```
+mount -rw -o remount /
+```
+# Reset username or password
+```
+ls /home
+```
+```
+passwd username
+Enter new UNIX password:
+Retype new UNIX password:
+exit
+```
+* you’ll be back at the recovery mode menu. Select the normal boot option here
+Insert image
