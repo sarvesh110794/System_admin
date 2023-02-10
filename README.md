@@ -21,3 +21,8 @@ $dd if=/dev/zero of=sparse_file bs=1 count=0 seek=512M
 $sudo rsync -arvh --sparse --info=progress2 sparse_file <uname>@<IP>:/home/sarvesh/Documents/
 ```
 ---
+# Reset user Passwd in ubuntu:
+### Boot into recovery mode
+* Switch the computer on. Go to the grub menu
+* it appears automatically – if not, then hold down the shift key or press Esc key until the boot menu appears
+* 
