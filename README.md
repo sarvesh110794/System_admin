@@ -32,12 +32,12 @@ insert image
 
 * you’ll see the option to go to recovery mode:
 
-# Drop to root shell prompt:
-# Remount the root with write access
+### Drop to root shell prompt:
+### Remount the root with write access
 ```
 mount -rw -o remount /
 ```
-# Reset username or password
+### Reset username or password
 ```
 ls /home
 ```
