@@ -28,7 +28,7 @@ $sudo rsync -arvh --sparse --info=progress2 sparse_file <uname>@<IP>:/home/sarve
 * If you are using virtualbox or VMware, ***Please hold down the shift key*** when the logo of Oracle appears.
 * select the “Advanced Options for Ubuntu”:
 
-!![grub menu image](/reset_pass_image/Grub_menu.png "Text to show on mouseover")
+![grub menu image](/reset_pass_image/Grub_menu.png)
 
 * you’ll see the option to go to recovery mode:
 
